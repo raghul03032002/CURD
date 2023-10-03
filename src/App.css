@@ -1,0 +1,40 @@
+#delmanage {
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input,select{
+  border:none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  width: 200px;
+  outline: none;
+}
+#logo{
+  width: 50px;
+}
+.home{
+  background:url("./image/bg-img.webp") fixed no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:center;
+  width: 100%;
+  height: 726px;
+}
+p{
+  width: 90%;
+  padding: 20%;
+  font-size: larger;
+  color: aliceblue;
+  font-weight: bolder;
+}
+#delmanage{
+  padding-top: 90px;
+}
